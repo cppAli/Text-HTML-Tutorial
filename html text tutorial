@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <style>
+        body {
+            background-color: #b7c4f3; /* Цвет фона страницы */   
+        }
+        .text-container {
+            margin-left: 200px; /* Отступ от левого и правого края */
+            margin-right: 200px;
+            max-width: 1200px; /* Максимальная ширина строки текста */
+        }
+        .center-text {
+            text-align: center; /* Центрируем текст по горизонтали */
+            
+        }
+        .custom-text {
+            font-size: 16px; /* Задаем размер шрифта, например, 24 пикселей */
+            font-weight: bold; /* Задаем жирность шрифта, например, жирный (bold) */
+            font-family: Arial;
+        }
+        .another-custom-text {
+            font-size: 16px; /* Другой размер шрифта, например, 18 пикселей */
+            font-weight: bold; /* Задаем жирность шрифта, например, жирный (bold) */
+            margin-bottom: 25px; /* Выберите желаемый размер отступа стандарт 10рх*/
+            font-family: Arial;
+            
+        }
+        .divider-line {
+            margin-left: 200px; /* Отступ от левого края */
+            margin-right: 200px; /* Отступ от правого края */
+            height: 1px;
+            background-color: #000; /* Цвет линии, например, черный */
+            margin-top: 10px; /* Отступ сверху линии */
+            margin-bottom: 10px; /* Отступ снизу линии */
+        }
+        .blue-divider-line {
+            margin-left: 200px; /* Отступ от левого края */
+            margin-right: 200px; /* Отступ от правого края */
+            height: 2px;
+            background-color: hsl(231, 58%, 71%); /* Цвет выделения текста */
+            margin-top: 10px; /* Отступ сверху линии */
+            margin-bottom: 10px; /* Отступ снизу линии */
+        }
+        abbr{
+            margin-right: 5px; /* Опциональный отступ между элементами списка */
+            background-color: hsl(231, 58%, 71%); /* Цвет выделения текста */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center-text">HTML Tutorial</h1>
+
+    <h2 class="center-text">What is HTML?</h2>
+    <div class="text-container">
+        <p><b>Hypertext Markup Language (HTML)</b> is the standard markup language for creating web 
+        pages and web applications.</p>
+
+        <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia 
+        web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of 
+        the document.</p>
+
+        <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive 
+        forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting 
+        structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. 
+        HTML elements are delineated by <i>tags,</i> written using angle brackets. 
+        Tags such as <code>&lt;img /&gt;</code> and <code>&lt;input /&gt;</code> directly introduce content into the page. 
+        Other tags such as <code>&lt;p&gt;</code> surround and provide information about document text and may include other tags 
+        as sub-elements. 
+        Browsers do not display the HTML tags, but use them to interpret the content of the page.</p>
+
+    </div>
+    
+
+    <div class="divider-line"></div>
+
+    <h2 class="center-text">Markup</h2>
+
+    <div class="text-container">
+        <p>HTML markup consists of several key components, including those called <i>tags</i> (and their <i>attributes</i>), 
+        character-based <i>data types, character references and entity references.</i> 
+        HTML tags most commonly come in pairs like <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code>, 
+        although some represent <i>empty elements</i> and so are unpaired, for example <code>&lt;img&gt;</code>. 
+        The first tag in such a pair is the start tag, and the second is the <i>end tag</i> 
+        (they are also called <i>opening tags and closing tags</i>).</p>
+
+        <p>Another important component is the HTML <i>document type declaration,</i> which triggers standards mode rendering.</p>
+
+        <p>The following is an example of the classic "Hello, World!" program:</p>
+    </div>
+    
+    <div class="text-container">
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;This is a title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;p&gt;Hello world!&lt;/p&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </div>
+    <div class="blue-divider-line"></div>
+    <div class="text-container">
+        <h4>Tags:</h4>
+    <p> 
+        <abbr>CodeScripting</abbr>
+        <abbr>head</abbr>
+        <abbr>HTML</abbr>
+        <abbr>Introduction to HTML</abbr>
+        <abbr>Landing</abbr>
+        <abbr>Links semantics</abbr>
+        <abbr>Structure</abbr>
+        <abbr>Text</abbr>
+    </p>
+    </div>
+    
+</body>
+</html>
